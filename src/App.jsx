@@ -30,7 +30,7 @@ function App() {
 
     "Will all students be taught only about investments#No. Due to the fact that many do not have full interest in investment, WIN also introduced other skill-acquisition programs for people that may have interest in graphic design and software development. Skills also serve as investments",
 
-    "Is the program free#No, but WIN has made it very affordable for many to access (as low as 2000 Naira only). Regardless our training retains good quality",
+    "Is the program free#No, but WIN has made it very affordable for many to access (as low as 2500 Naira only). Regardless our training retains good quality",
 
     "Why is it for females only#We know the struggles of being a female worker in most societies, hence we are educating all females, young or old, on how to generate steady income on their own in any part of the world",
 
@@ -40,7 +40,7 @@ function App() {
 
     "How does WIN earn their money# WIN generates income by it's number of loan it gives out to various individuals and businesses. And also from adverts that are being run in the community pages to boost members and non-members business",
 
-    "Asking something else#For further inquiries, contact us on whatsapp or send us an email at talk2womeninvestors@gmail.com ",
+    "Asking something else#For further inquiries, contact us on whatsapp +2348073377944 or send us an email at talk2womeninvestors@gmail.com ",
   ]
 
   function scrollTo(where) {
@@ -66,7 +66,7 @@ function App() {
           <div onClick={() => { scrollTo('why') }} className="link text-[#ffffffd1] hover:text-pink cursor-pointer">Insight</div>
           <div onClick={() => { scrollTo('FAQS') }} className="link text-[#ffffffd1] hover:text-pink cursor-pointer">FAQs</div>
           <div onClick={() => { scrollTo('footer') }} className="link text-[#ffffffd1] hover:text-pink cursor-pointer">Contact us</div>
-          <a href="###" className="register ml-5 cursor-pointer font-semibold rounded-md text-white bg-[#2897ff] p-3 px-5 text-sm hover:bg-white hover:text-black">Register +</a>
+          <a href="https://forms.gle/zemjb3QcwJeCajqPA" className="register ml-5 cursor-pointer font-semibold rounded-md text-white bg-[#2897ff] p-3 px-5 text-sm hover:bg-white hover:text-black">Register +</a>
         </div>
 
         <div onClick={() => { setMenu(true) }} className="hamb md:hidden flex flex-col gap-1 cursor-pointer duration-200 hover:bg-[#ffffff15] aspect-square items-center justify-center rounded-lg p-2 border-2 border-[#ffffff15]">
@@ -81,7 +81,7 @@ function App() {
             <div onClick={() => { scrollTo('why') }} className="link text-[#ffffffd1] hover:text-pink cursor-pointer">Insight</div>
             <div onClick={() => { scrollTo('FAQS') }} className="link text-[#ffffffd1] hover:text-pink cursor-pointer">FAQs</div>
             <div onClick={() => { scrollTo('where') }} className="link text-[#ffffffd1] hover:text-pink cursor-pointer">Contact us</div>
-            <a href='###' className="register mt-5 cursor-pointer font-semibold rounded-md text-white bg-[#2897ff] p-3 px-5 text-lg hover:bg-white hover:text-black">Register +</a>
+            <a href='https://forms.gle/zemjb3QcwJeCajqPA' className="register mt-5 cursor-pointer font-semibold rounded-md text-white bg-[#2897ff] p-3 px-5 text-lg hover:bg-white hover:text-black">Register +</a>
           </div>
         </div>
       </div>
@@ -93,7 +93,7 @@ function App() {
           <p className="leading-normal font-black max-w-[400px] text-2xl md:text-4xl">Invest Fearlessly, Become Independent!</p>
           <p className="text-sm opacity-75 text-center leading-normal w-full p-5 px-0 md:px-5 mt-2 max-w-[600px]">Take charge of your financial destiny with our exclusive Women Investors program for Ladies of all ages. Become a part of a global community, let's grow together!</p>
 
-          <div onClick={() => { scrollTo('about') }} style={{ wordSpacing: '2px' }} className="start duration-200 bg-pink hover:bg-slate-900 mt-5 flex gap-3 p-4 rounded-md font-semibold cursor-pointer">Start your Journey <img draggable="false" src={arrow} className='w-5' /></div>
+          <a href="https://forms.gle/zemjb3QcwJeCajqPA" style={{ wordSpacing: '2px' }} className="start duration-200 bg-pink hover:bg-slate-900 mt-5 flex gap-3 p-4 rounded-md font-semibold cursor-pointer">Start your Journey <img draggable="false" src={arrow} className='w-5' /></a>
         </div>
       </div>
 
@@ -202,13 +202,13 @@ function App() {
           <p className="text-sm max-w-[70%] ">The First Root Company Inc. P.B 2108 Lagos state, Nigeria. </p>
           <p className="text-xs opacity-40">Copyright &copy; 2020 Women Investors Network co. </p>
           <div className="flex gap-8 my-5">
-            <a href="mailto">
+            <a href="mailto:talk2womeninvestors@gmail.com">
               <img src={gmail} className="w-7 h-7" />
             </a>
             <a href="">
               <img src={whatsapp} className="w-7 h-7" />
               </a>
-            <a href="">
+            <a href="https:linkedin.com">
               <img src={linkedIn} className="w-7 h-7" />
               </a>
           </div>
@@ -224,9 +224,9 @@ function App() {
         </div>
 
         <div className="flex flex-col items-center md:items-start w-[25%] gap-5">
-          <p className="font-bold">Quick Links </p>
+          <p className="font-bold whitespace-nowrap">Quick Links </p>
           <p onClick={() => { window.scrollTo({ top: 0, behavior: 'smooth' }) }} className="text-xs text-thin text-[#ffffff50] hover:text-white duration-200 cursor-pointer">Back to Top</p>
-          <a href='###' className="register whitespace-nowrap cursor-pointer font-semibold rounded-md text-white bg-[#2897ff] p-3 px-8 w-max text-sm hover:bg-white hover:text-black">Register Now</a>
+          <a href='https://forms.gle/zemjb3QcwJeCajqPA' className="register whitespace-nowrap cursor-pointer font-semibold rounded-md text-white bg-[#2897ff] p-3 px-8 w-max text-sm hover:bg-white hover:text-black">Register Now</a>
         </div>
       </div>
     </>
