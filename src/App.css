@@ -1,0 +1,57 @@
+* {
+  font-family: 'Plus Jakarta sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  background: #eaeaea;
+  scroll-behavior: smooth;
+}
+
+.hero {
+  transition: cubic-bezier(0.25, 0.46, 0.45, 0.94) .23s;
+}
+
+/* .register {
+  background: linear-gradient(45deg, #ff2ad4, #2897ff);
+} */
+
+.start img {
+  width: 0;
+  transition: cubic-bezier(0.25, 0.46, 0.45, 0.94) .23s;
+}
+
+
+.start:hover img {
+  animation: hver .6s alternate infinite;
+  width: 20px;
+}
+
+@keyframes hver {
+
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 20px;
+  }
+}
+
+.faqCard label::selection {
+  background: none;
+}
+.faqCard .answer {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: ease-out .4s;
+}
+
+.faqCard:has(input:checked) .answer {
+  max-height: 300px;
+  opacity: 1;
+}
+
+.faqCard:has(input:checked) label{
+  transform: rotate(45deg);
+}
