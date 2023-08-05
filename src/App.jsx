@@ -205,10 +205,10 @@ function App() {
             <a href="mailto:talk2womeninvestors@gmail.com">
               <img src={gmail} className="w-7 h-7" />
             </a>
-            <a href="">
+            <a href="https://wa.me/message/UKHEP7U3CYGVM1">
               <img src={whatsapp} className="w-7 h-7" />
               </a>
-            <a href="https:linkedin.com">
+            <a href="https://linkedin.com">
               <img src={linkedIn} className="w-7 h-7" />
               </a>
           </div>

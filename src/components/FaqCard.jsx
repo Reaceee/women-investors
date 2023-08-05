@@ -6,7 +6,7 @@ const FAQ_card = (props) => {
                 <div className="flex w-full justify-between items-center">
                     <p className="question font-bold max-w-[80%]">{props.quest}?</p>
 
-                    <label for={'check' + props.id} className="text-3xl font-bold cursor-pointer h-8 w-8 min-h-[2rem] min-w-[2rem] hover:bg-purple-200 flex items-center justify-center text-center pb-2 rounded-full duration-200 text-purp">+</label>
+                    <label for={'check' + props.id} className="text-3xl font-bold cursor-pointer h-8 w-8 min-h-[2rem] min-w-[2rem] flex items-center justify-center text-center rounded-full duration-200 text-purp">+</label>
                 </div>
 
 
