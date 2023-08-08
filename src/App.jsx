@@ -30,7 +30,7 @@ function App() {
 
     "Will all students be taught only about investments#No. Due to the fact that many do not have full interest in investment, WIN also introduced other skill-acquisition programs for people that may have interest in graphic design and software development. Skills also serve as investments",
 
-    "Is the program free#No, but WIN has made it very affordable for many to access (as low as 2500 Naira only). Regardless our training retains good quality",
+    "Is the program free#The short answer is No, but WIN has made it very affordable for many to access (as low as 1000 Naira only). Regardless our training retains good quality",
 
     "Why is it for females only#We know the struggles of being a female worker in most societies, hence we are educating all females, young or old, on how to generate steady income on their own in any part of the world",
 
@@ -215,7 +215,7 @@ function App() {
 
         </div>
 
-        <div className="flex flex-col w-[25%] items-center md:items-start gap-5">
+        <div className="flex flex-col w-[25%] items-center md:items-start gap-5 whitespace-nowrap">
           <p className="font-bold">Company </p>
           <p onClick={() => { scrollTo('footer') }} className="text-xs text-thin text-[#ffffff50] hover:text-white duration-200 cursor-pointer">Contact Us</p>
           <p onClick={() => { scrollTo('about') }} className="text-xs text-thin text-[#ffffff50] hover:text-white duration-200 cursor-pointer">About Us</p>

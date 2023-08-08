@@ -1,7 +1,7 @@
 const FAQ_card = (props) => {
     return (
         <>
-            <div className="faqCard h-max flex flex-col w-full px-5 pt-4 pb-2 ring-1 ring-slate-400 gap-2 shadow-md rounded-md">
+            <label for={'check' + props.id} className="faqCard h-max flex flex-col w-full px-5 pt-4 pb-2 ring-1 ring-slate-400 gap-2 shadow-md rounded-md">
                 <input type="checkbox" id={'check' + props.id} className="hidden invisible" />
                 <div className="flex w-full justify-between items-center">
                     <p className="question font-bold max-w-[80%]">{props.quest}?</p>
@@ -12,10 +12,8 @@ const FAQ_card = (props) => {
 
                 <div className="answer text-xs">
                     {props.ans}.
-                    
-                    {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, ipsa. Ipsam unde nisi eos aperiam tempore eveniet aliquid quam esse consequuntur doloribus delectus, reiciendis odit perferendis quidem ipsum assumenda odio. */}
                 </div>
-            </div>
+            </label>
         </>
     )
 };
