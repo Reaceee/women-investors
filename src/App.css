@@ -41,17 +41,6 @@ body {
   background: none;
 }
 .faqCard .answer {
-  max-height: 0;
   overflow: hidden;
-  opacity: 0;
   transition: ease-out .4s;
-}
-
-.faqCard:has(input:checked) .answer {
-  max-height: 300px;
-  opacity: 1;
-}
-
-.faqCard:has(input:checked) label{
-  transform: rotate(45deg);
 }
